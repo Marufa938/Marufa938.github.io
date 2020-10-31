@@ -1,0 +1,66 @@
+@charset "utf-8"
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav {
+	background: purple;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+
+#nav h1 {
+	float: left;
+}
+
+#nav h1 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#nav ul {
+	float: right;
+}
+
+#nav ul li {
+     text-decoration: none;
+     list-style-type: none;
+     display: inline-block;
+}
+
+#nav ul li a {
+     text-decoration: none;
+     color: white;
+     padding: 25px;
+     font-weight: 
+     font-family: 'Open Sans', sans-serif;
+}
+
+#nav ul li :hover {
+	background: orange;
+    text-transform: all ease-in-out 0.40s;
+}
+
+#hello {
+    background: none;
+}
+
+#hello1 {
+    background: green;
+    height: 5px;
+}
+
+#hello2 {
+    background: thistle;
+    width: 500%;
+    height: 1000px;
+}
